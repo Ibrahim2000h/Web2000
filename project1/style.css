@@ -1,0 +1,78 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav.row {
+    background-color: darkgreen;
+    padding: 10px;
+    border: 4px forestgreen solid;
+    border-radius: 8px;
+}
+
+main {
+    background-color: wheat;
+}
+
+#navId a {
+    color: gold;
+}
+
+#navId a:visited {
+    color: darkgoldenrod;
+}
+
+#navId a:hover {
+    font-size: 20px;
+    transition-duration: 300ms;
+}
+
+#footerId {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: darkgreen;
+    padding: 10px;
+    color: white;
+    border: 4px forestgreen solid;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+figure {
+    border: 3px grey solid;
+    border-radius: 2px;
+}
+
+nav.row > ul {
+    list-style: none;
+}
+
+nav.row > ul > li {
+    padding: 0 20px;
+    color: white
+}
+
+
+section.row {
+    justify-content: space-between;
+    align-items: center;
+    border: forestgreen 3px solid;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.navTitle {
+    color: whitesmoke;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
